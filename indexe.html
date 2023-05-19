@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet de gestion des notes</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body class="bg-white">
+<img src="BREUKH.png" alt="Breukh'S Cool" class="img-logo">
+    <div class="container">
+        <h2>Enregistrer un élève</h2>
+        <form id="enregistrer-eleve-form">
+            <div class="form-group">
+                <label for="nom">Nom:</label>
+                <input type="text" class="form-control" id="nom" name="nom" required>
+            </div>
+
+            <div class="form-group">
+               <label for="prenom">Prénom:</label>
+                <input type="text" class="form-control" id="prenom" name="prenom" required>
+            </div>
+
+            <div class="form-group">
+                <label for="numero">Numéro:</label>
+                <input type="text" class="form-control" id="numero" name="numero" required>
+            </div>
+
+            <div class="form-group">
+                <label for="date-de-naissance">Date de naissance:</label>
+                <input type="date" class="form-control" id="date-de-naissance" name="date-de-naissance">
+            </div>
+
+            <button type="submit" class="btn-info : bouton bleu clair">Enregistrer</button>
+        </form>
+
+        <hr>
+
+        <h2>Créer une année scolaire</h2>
+        <form id="creer-annee-scolaire-form">
+            <div class="form-group">
+                <label for="libelle-annee-scolaire">Libellé:</label>
+                <input type="text" class="form-control" id="libelle-annee-scolaire" name="libelle-annee-scolaire" required>
+            </div>
+
+            <button type="submit" class="btn-info : bouton bleu clair">Créer</button>
+        </form>
+
+        <hr>
+
+        <h2>Créer une classe</h2        
+            
+            <form id="creer-classe-form">
+            <div class="form-group">
+                <label for="libelle-classe">Libellé:</label>
+                <input type="text" class="form-control" id="libelle-classe" name="libelle-classe" required>
+            </div>
+
+            <button type="submit" class="btn-info : bouton bleu clair">Créer</button>
+        </form>
+
+        <hr>
+
+        <h2>Créer un niveau</h2>
+        <form id="creer-niveau-form">
+            <div class="form-group">
+                <label for="libelle-niveau">Libellé:</label>
+                <input type="text" class="form-control" id="libelle-niveau" name="libelle-niveau" required>
+            </div>
+
+            <button type="submit" class="btn-info : bouton bleu clair">Créer</button>
+        </form>
+    </div>
+
+   
